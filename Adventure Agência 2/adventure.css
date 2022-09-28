@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Fotos/Montanha.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 15%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 145px;
+    cursor: pointer;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 120px;
+    color: greenyellow;
+    cursor: pointer;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition: all 300ms ease;
+}
+
+nav ul li a:hover{
+    color: greenyellow;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    margin-right: -200px;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+.text-dark{
+    color: white;
+    text-shadow: 0 0 0.7rem black;
+}
+
+h1{
+    color: rgb(0, 204, 0);
+    font-size: 60px;
+    text-shadow: 0 0 0.7rem black;
+}
+
+p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 24px;
+    padding-right: 100px;
+}
+
+button{
+    width: 180px;
+    color: white;
+    font-size: 20px;
+    padding: 12px 0;
+    background-color: rgb(0, 204, 0);
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: default;
+    transition: all 300ms ease;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+button:hover{
+    box-shadow: 0 1rem 2rem black;
+}
+
+
+.card1{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url(Fotos/trilha1.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1 p{
+    font-size: 15px;
+}
+
+.card1:hover{
+    transform: translateY(-10px);
+}
+
+.card2{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url(Fotos/trilha2.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card2 p{
+    font-size: 15px;
+}
+
+.card2:hover{
+    transform: translateY(-10px);
+}
+
+.card3{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url(Fotos/trilha3.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card3 p{
+    font-size: 15px;
+}
+
+.card3:hover{
+    transform: translateY(-10px);
+}
+
+.card4{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url(Fotos/trilha4.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card4 p{
+    font-size: 15px;
+}
+
+.card4:hover{
+    transform: translateY(-10px);
+}
+
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
